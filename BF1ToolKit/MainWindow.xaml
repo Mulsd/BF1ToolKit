@@ -6,9 +6,12 @@
     xmlns:local="clr-namespace:BF1ToolKit"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:ui="clr-namespace:BF1ToolKit.UI.Controls;assembly=BF1ToolKit.UI"
-    Title="MainWindow"
-    Width="800"
-    Height="450"
+    Name="Window_Main"
+    Title="战地1服务器管理工具"
+    Width="1280"
+    Height="720"
+    MinWidth="1280"
+    MinHeight="720"
     Style="{StaticResource UiWindowStyle}"
     mc:Ignorable="d">
 

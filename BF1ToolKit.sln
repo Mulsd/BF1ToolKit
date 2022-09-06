@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BF1ToolKit.Chat", "BF1ToolK
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BF1ToolKit.SDK", "BF1ToolKit.SDK\BF1ToolKit.SDK.csproj", "{54E32AC3-63A0-449A-AC5E-F045C174D349}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BF1ToolKit.Data", "BF1ToolKit.Data\BF1ToolKit.Data.csproj", "{DFAE28AD-A0E8-452A-9BCF-D1868A376EED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,14 @@ Global
 		{54E32AC3-63A0-449A-AC5E-F045C174D349}.Release|Any CPU.Build.0 = Release|Any CPU
 		{54E32AC3-63A0-449A-AC5E-F045C174D349}.Release|x64.ActiveCfg = Release|Any CPU
 		{54E32AC3-63A0-449A-AC5E-F045C174D349}.Release|x64.Build.0 = Release|Any CPU
+		{DFAE28AD-A0E8-452A-9BCF-D1868A376EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAE28AD-A0E8-452A-9BCF-D1868A376EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAE28AD-A0E8-452A-9BCF-D1868A376EED}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DFAE28AD-A0E8-452A-9BCF-D1868A376EED}.Debug|x64.Build.0 = Debug|Any CPU
+		{DFAE28AD-A0E8-452A-9BCF-D1868A376EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAE28AD-A0E8-452A-9BCF-D1868A376EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFAE28AD-A0E8-452A-9BCF-D1868A376EED}.Release|x64.ActiveCfg = Release|Any CPU
+		{DFAE28AD-A0E8-452A-9BCF-D1868A376EED}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -24,6 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BF1ToolKit.API\BF1ToolKit.API.csproj" />
+    <ProjectReference Include="..\BF1ToolKit.Chat\BF1ToolKit.Chat.csproj" />
+    <ProjectReference Include="..\BF1ToolKit.SDK\BF1ToolKit.SDK.csproj" />
     <ProjectReference Include="..\BF1ToolKit.UI\BF1ToolKit.UI.csproj" />
   </ItemGroup>
 
