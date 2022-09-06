@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Assets\Fonts\iconfont.ttf" />
     <None Remove="Assets\Images\Client\Classes2\Assault.png" />
     <None Remove="Assets\Images\Client\Classes2\Cavalry.png" />
     <None Remove="Assets\Images\Client\Classes2\Medic.png" />
@@ -1003,7 +1002,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Assets\Fonts\iconfont.ttf" />
     <Resource Include="Assets\Images\Other\Avatar.jpg" />
     <Resource Include="Assets\Images\Other\BF1_Logo.png" />
     <Resource Include="Assets\Images\Other\Loading.gif" />
