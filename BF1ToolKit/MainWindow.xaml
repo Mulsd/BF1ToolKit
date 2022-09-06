@@ -1,0 +1,38 @@
+﻿<ui:UiWindow
+    x:Class="BF1ToolKit.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:BF1ToolKit"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ui="clr-namespace:BF1ToolKit.UI.Controls;assembly=BF1ToolKit.UI"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    Style="{StaticResource UiWindowStyle}"
+    mc:Ignorable="d">
+
+    <Grid>
+        <TextBlock
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text="测试文本" />
+        <TextBlock
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Text="测试文本" />
+        <TextBlock
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Text="测试文本" />
+        <TextBlock
+            HorizontalAlignment="Left"
+            VerticalAlignment="Bottom"
+            Text="测试文本" />
+        <TextBlock
+            HorizontalAlignment="Right"
+            VerticalAlignment="Bottom"
+            Text="测试文本" />
+    </Grid>
+
+</ui:UiWindow>
