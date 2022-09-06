@@ -5,7 +5,12 @@
 
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/Window.xaml" />
+
         <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/ButtonIcon.xaml" />
+
+        <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/TabControl.xaml" />
+
+
     </ResourceDictionary.MergedDictionaries>
 
 </ResourceDictionary>

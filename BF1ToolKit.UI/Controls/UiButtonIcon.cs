@@ -14,5 +14,5 @@ public class UiButtonIcon : Button
         set { SetValue(IconProperty, value); }
     }
     public static readonly DependencyProperty IconProperty =
-        DependencyProperty.Register("Icon", typeof(string), typeof(UiButtonIcon), new PropertyMetadata(""));
+        DependencyProperty.Register("Icon", typeof(string), typeof(UiButtonIcon), new PropertyMetadata(default));
 }

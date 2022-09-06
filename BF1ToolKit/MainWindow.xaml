@@ -13,26 +13,20 @@
     mc:Ignorable="d">
 
     <Grid>
-        <TextBlock
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text="测试文本" />
-        <TextBlock
-            HorizontalAlignment="Right"
-            VerticalAlignment="Top"
-            Text="测试文本" />
-        <TextBlock
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center"
-            Text="测试文本" />
-        <TextBlock
-            HorizontalAlignment="Left"
-            VerticalAlignment="Bottom"
-            Text="测试文本" />
-        <TextBlock
-            HorizontalAlignment="Right"
-            VerticalAlignment="Bottom"
-            Text="测试文本" />
+        <StackPanel>
+            <ui:UiButtonIcon Content="图标按钮" Icon="😀" />
+            <ui:UiButtonIcon
+                Content="图标按钮"
+                Icon="😀"
+                IsEnabled="False" />
+            <TabControl Height="200" Margin="5">
+                <ui:UiTabItem Emoji="😀" Header="001" />
+                <ui:UiTabItem Emoji="😀" Header="001" />
+                <ui:UiTabItem Emoji="😀" Header="001" />
+                <ui:UiTabItem Emoji="😀" Header="001" />
+                <ui:UiTabItem Emoji="😀" Header="001" />
+            </TabControl>
+        </StackPanel>
     </Grid>
 
 </ui:UiWindow>

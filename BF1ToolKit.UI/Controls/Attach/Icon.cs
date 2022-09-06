@@ -22,6 +22,22 @@ public class Icon
     #endregion
 
     #region 宽度
+    public static string GetEmoji(DependencyObject obj)
+    {
+        return (string)obj.GetValue(EmojiProperty);
+    }
+    public static void SetEmoji(DependencyObject obj, string value)
+    {
+        obj.SetValue(EmojiProperty, value);
+    }
+    /// <summary>
+    /// 图标宽度
+    /// </summary>
+    public static readonly DependencyProperty EmojiProperty =
+        DependencyProperty.RegisterAttached("Emoji", typeof(string), typeof(Icon), new PropertyMetadata(default));
+    #endregion
+
+    #region 宽度
     public static double GetWidth(DependencyObject obj)
     {
         return (int)obj.GetValue(WidthProperty);

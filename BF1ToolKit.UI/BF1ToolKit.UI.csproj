@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Emoji.Wpf" Version="0.3.3" />
+  </ItemGroup>
+
 </Project>

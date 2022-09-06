@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
-    <Nullable>disable</Nullable>
+    <Nullable>annotations</Nullable>
     <UseWPF>true</UseWPF>
     <Platforms>x64</Platforms>
     <StartupObject>BF1ToolKit.App</StartupObject>
@@ -18,7 +18,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Images\Battlefield-1-256.png" />
+    <None Remove="Assets\Images\Battlefield-1-Favicon.ico" />
+    <None Remove="Assets\Images\splash-bf1-launch.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BF1ToolKit.UI\BF1ToolKit.UI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\Battlefield-1-256.png" />
+    <Resource Include="Assets\Images\Battlefield-1-Favicon.ico" />
+    <Resource Include="Assets\Images\splash-bf1-launch.jpg" />
   </ItemGroup>
 
 </Project>

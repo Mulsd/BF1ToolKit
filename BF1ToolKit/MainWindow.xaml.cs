@@ -1,7 +1,7 @@
 ﻿namespace BF1ToolKit;
 
 /// <summary>
-/// Interaction logic for MainWindow.xaml
+/// MainWindow.xaml 的交互逻辑
 /// </summary>
 public partial class MainWindow
 {
