@@ -36,7 +36,7 @@
             FontSize="14"
             Text="Copyright© 2020-2022 DS By CrazyZhang666, Support By Coloryr, B_bili22" />
         <Border
-            Margin="0,10,0,5"
+            Margin="10"
             Padding="10,0,10,0"
             HorizontalAlignment="Center"
             BorderBrush="Gray"
@@ -60,7 +60,7 @@
                     Margin="10,0,0,0"
                     Style="{StaticResource TextBlockStyle_AboutIconFont}"
                     ToolTip="GitHub">
-                    <Hyperlink NavigateUri="https://github.com/CrazyZhang666/BF1.ServerAdminTools" RequestNavigate="Hyperlink_RequestNavigate">
+                    <Hyperlink NavigateUri="https://github.com/CrazyZhang666/BF1ToolKit" RequestNavigate="Hyperlink_RequestNavigate">
                         &#xe677;
                     </Hyperlink>
                 </TextBlock>

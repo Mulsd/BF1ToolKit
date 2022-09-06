@@ -4,12 +4,13 @@
         <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/Color.xaml" />
         <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/Global.xaml" />
 
+        <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/ScrollViewer.xaml" />
         <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/Window.xaml" />
 
         <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/TextBlock.xaml" />
+        <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/TextBox.xaml" />
         <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/ButtonIcon.xaml" />
         <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/RadioButtonEmoji.xaml" />
-        <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/ScrollViewer.xaml" />
 
         <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/Image.xaml" />
 
