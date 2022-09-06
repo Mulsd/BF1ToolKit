@@ -6,8 +6,8 @@
 
     <Style TargetType="{x:Type TabControl}">
         <Setter Property="OverridesDefaultStyle" Value="True" />
-        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
         <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
         <Setter Property="HorizontalContentAlignment" Value="Center" />
         <Setter Property="VerticalContentAlignment" Value="Center" />
         <Setter Property="Template">
@@ -57,7 +57,9 @@
         </Setter>
         <Setter Property="ItemContainerStyle">
             <Setter.Value>
-                <Style TargetType="{x:Type TabItem}">
+                <Style TargetType="{x:Type controls:UiTabItemEmoji}">
+                    <Setter Property="OverridesDefaultStyle" Value="True" />
+                    <Setter Property="SnapsToDevicePixels" Value="True" />
                     <Setter Property="FocusVisualStyle" Value="{x:Null}" />
                     <Setter Property="Foreground" Value="Black" />
                     <Setter Property="Margin" Value="0" />
@@ -66,13 +68,13 @@
                     <Setter Property="VerticalContentAlignment" Value="Stretch" />
                     <Setter Property="Template">
                         <Setter.Value>
-                            <ControlTemplate TargetType="{x:Type controls:UiTabItem}">
+                            <ControlTemplate TargetType="{x:Type controls:UiTabItemEmoji}">
                                 <Grid x:Name="templateRoot" SnapsToDevicePixels="true">
                                     <Border
                                         x:Name="mainBorder"
                                         Margin="0,0,0,-1"
-                                        Background="{TemplateBinding Background}"
-                                        BorderBrush="{TemplateBinding BorderBrush}"
+                                        Background="White"
+                                        BorderBrush="Gray"
                                         BorderThickness="0">
                                         <Border x:Name="secondBorder" />
                                     </Border>

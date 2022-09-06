@@ -8,9 +8,6 @@
 
   <ItemGroup>
     <None Remove="Assets\Fonts\iconfont.ttf" />
-    <None Remove="Assets\Images\afdian-logo.png" />
-    <None Remove="Assets\Images\Battlefield-1-256.png" />
-    <None Remove="Assets\Images\Battlefield-1-Favicon.ico" />
     <None Remove="Assets\Images\Client\Classes2\Assault.png" />
     <None Remove="Assets\Images\Client\Classes2\Cavalry.png" />
     <None Remove="Assets\Images\Client\Classes2\Medic.png" />
@@ -506,15 +503,10 @@
     <None Remove="Assets\Images\DLC\bf1_05.jpg" />
     <None Remove="Assets\Images\Other\Avatar.jpg" />
     <None Remove="Assets\Images\Other\BF1_Logo.png" />
-    <None Remove="Assets\Images\Other\InputMethod.png" />
     <None Remove="Assets\Images\Other\Loading.gif" />
-    <None Remove="Assets\Images\splash-bf1-launch.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Assets\Images\afdian-logo.png" />
-    <Resource Include="Assets\Images\Battlefield-1-256.png" />
-    <Resource Include="Assets\Images\Battlefield-1-Favicon.ico" />
     <Resource Include="Assets\Images\Client\Classes2\Assault.png" />
     <Resource Include="Assets\Images\Client\Classes2\Cavalry.png" />
     <Resource Include="Assets\Images\Client\Classes2\Medic.png" />
@@ -1014,9 +1006,7 @@
     <Resource Include="Assets\Fonts\iconfont.ttf" />
     <Resource Include="Assets\Images\Other\Avatar.jpg" />
     <Resource Include="Assets\Images\Other\BF1_Logo.png" />
-    <Resource Include="Assets\Images\Other\InputMethod.png" />
     <Resource Include="Assets\Images\Other\Loading.gif" />
-    <Resource Include="Assets\Images\splash-bf1-launch.jpg" />
   </ItemGroup>
 
 </Project>

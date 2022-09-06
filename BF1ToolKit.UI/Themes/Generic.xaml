@@ -1,15 +1,17 @@
-<ResourceDictionary
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="clr-namespace:BF1ToolKit.UI">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/Window.xaml" />
 
         <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/ButtonIcon.xaml" />
+        <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/RadioButtonEmoji.xaml" />
+        <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/ScrollViewer.xaml" />
 
-        <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/TabControl.xaml" />
+        <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/Image.xaml" />
 
+        <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/TabControlEmoji.xaml" />
+        <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/DataGrid.xaml" />
+        <ResourceDictionary Source="/BF1ToolKit.UI;component/Styles/ListView.xaml" />
 
     </ResourceDictionary.MergedDictionaries>
 

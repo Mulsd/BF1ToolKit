@@ -7,6 +7,8 @@
     <UseWPF>true</UseWPF>
     <Platforms>x64</Platforms>
     <StartupObject>BF1ToolKit.App</StartupObject>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\Images\Battlefield-1-Favicon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -18,6 +20,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Images\afdian-logo.png" />
     <None Remove="Assets\Images\Battlefield-1-256.png" />
     <None Remove="Assets\Images\Battlefield-1-Favicon.ico" />
     <None Remove="Assets\Images\splash-bf1-launch.jpg" />
@@ -26,15 +29,19 @@
   <ItemGroup>
     <ProjectReference Include="..\BF1ToolKit.API\BF1ToolKit.API.csproj" />
     <ProjectReference Include="..\BF1ToolKit.Chat\BF1ToolKit.Chat.csproj" />
+    <ProjectReference Include="..\BF1ToolKit.Data\BF1ToolKit.Data.csproj" />
     <ProjectReference Include="..\BF1ToolKit.SDK\BF1ToolKit.SDK.csproj" />
     <ProjectReference Include="..\BF1ToolKit.UI\BF1ToolKit.UI.csproj" />
+    <ProjectReference Include="..\BF1ToolKit.Util\BF1ToolKit.Util.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
+    <PackageReference Include="Notification.Wpf" Version="6.1.0.5" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Assets\Images\afdian-logo.png" />
     <Resource Include="Assets\Images\Battlefield-1-256.png" />
     <Resource Include="Assets\Images\Battlefield-1-Favicon.ico" />
     <Resource Include="Assets\Images\splash-bf1-launch.jpg" />

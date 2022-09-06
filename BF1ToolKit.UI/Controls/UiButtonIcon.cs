@@ -1,7 +1,4 @@
-﻿using System.Windows;
-using System.Windows.Controls;
-
-namespace BF1ToolKit.UI.Controls;
+﻿namespace BF1ToolKit.UI.Controls;
 
 public class UiButtonIcon : Button
 {

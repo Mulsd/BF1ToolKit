@@ -1,6 +1,6 @@
 ﻿namespace BF1ToolKit.UI.Controls;
 
-public class UiTabItem : TabItem
+public class UiTabItemEmoji : TabItem
 {
     /// <summary>
     /// Emoji图标
@@ -11,5 +11,5 @@ public class UiTabItem : TabItem
         set { SetValue(EmojiProperty, value); }
     }
     public static readonly DependencyProperty EmojiProperty =
-        DependencyProperty.Register("Emoji", typeof(string), typeof(UiTabItem), new PropertyMetadata(default));
+        DependencyProperty.Register("Emoji", typeof(string), typeof(UiTabItemEmoji), new PropertyMetadata(default));
 }
