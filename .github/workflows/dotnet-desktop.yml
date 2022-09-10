@@ -58,7 +58,7 @@ jobs:
     env:
       Solution_Name: BF1ToolKit.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
       Test_Project_Path: BF1ToolKit.csproj                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
-
+      Wap_Project_Path: BF1ToolKit
     steps:
     - name: Checkout
       uses: actions/checkout@v3
